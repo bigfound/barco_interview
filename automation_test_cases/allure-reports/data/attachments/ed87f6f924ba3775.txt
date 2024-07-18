@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_automation_case.py:91 Step1: go to the warranty page
+[32mINFO    [0m root:test_automation_case.py:92 https://www.barco.com/eu-en/support/clickshare-extended-warranty/warranty
+[32mINFO    [0m root:test_automation_case.py:99 Step2: Press the Get info button with various number length, SN: 111111
+[32mINFO    [0m root:element.py:38 Click the element: ('id', 'serial')
+[32mINFO    [0m root:test_automation_case.py:103 SN: 111111, warranty info items: ['Description', 'Part number']

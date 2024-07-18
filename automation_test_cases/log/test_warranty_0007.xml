@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="4.940" timestamp="2024-07-18T17:28:50.839533" hostname="LAPTOP-602NT97V"><testcase classname="test_automation_case.TestCases" name="test_check_web_page_reload_status" time="4.754" /></testsuite></testsuites>

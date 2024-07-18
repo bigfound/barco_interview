@@ -1,0 +1,10 @@
+[20240718 17:28:51.015] INFO util.py(line:9): Create log folder: C:\Eric\work_space\python_project\barco_interview\automation_test_cases\log
+[20240718 17:28:51.017] INFO util.py(line:11): Log folder already exists, remove previous files
+[20240718 17:28:51.019] INFO util.py(line:15): Completed log folder creation.
+[20240718 17:28:52.259] INFO test_automation_case.py(line:127): Step1: go to the warranty page
+[20240718 17:28:52.262] INFO test_automation_case.py(line:128): https://www.barco.com/eu-en/support/clickshare-extended-warranty/warranty
+[20240718 17:28:54.881] INFO test_automation_case.py(line:135): Step2: Press the Get info button with valid SN: 1863552437
+[20240718 17:28:54.943] INFO element.py(line:42): Click the element: ('id', 'serial')
+[20240718 17:28:55.145] INFO test_automation_case.py(line:138): serial number field value: 1863552437
+[20240718 17:28:55.146] INFO test_automation_case.py(line:139): Step3: Refresh the web page
+[20240718 17:28:55.764] INFO test_automation_case.py(line:142): serial number field value: 

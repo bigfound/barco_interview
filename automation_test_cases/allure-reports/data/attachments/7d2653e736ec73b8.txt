@@ -1,0 +1,9 @@
+[32mINFO    [0m root:util.py:9 Create log folder: C:\Eric\work_space\python_project\barco_interview\automation_test_cases\log
+[32mINFO    [0m root:util.py:11 Log folder already exists, remove previous files
+[32mINFO    [0m root:util.py:15 Completed log folder creation.
+[32mINFO    [0m root:test_automation_case.py:54 Step1: go to warranty page
+[32mINFO    [0m root:test_automation_case.py:55 https://www.barco.com/eu-en/support/clickshare-extended-warranty/warranty
+[32mINFO    [0m root:test_automation_case.py:63 Step2: Press the Get info button with special characters(!@#$%^&*(_)+_.,/?~)
+[32mINFO    [0m root:element.py:38 Click the element: ('id', 'serial')
+[32mINFO    [0m root:test_automation_case.py:68 There is no any shows up after input invalid serial number
+[32mINFO    [0m root:test_automation_case.py:69 Test result: PASSED

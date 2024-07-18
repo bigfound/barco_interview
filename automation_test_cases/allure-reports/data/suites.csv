@@ -1,0 +1,63 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 18 16:55:40 CST 2024","Thu Jul 18 16:56:07 CST 2024","27423","","test_automation_case","TestCases","","","test_get_warranty_info_with_various_number_length[1]","
+
+        Test case name: Warranty_0005
+        Description: Get warranty info with number length = 1/4/5/6
+
+        expected warranty result output format:
+
+        Description:          CLICKSHARE CX-50 SET NA
+        Part number:          R9861522NA
+        Installation date:    28 September 2020
+        Warranty end date:    27 September 2021
+
+        "
+"failed","Thu Jul 18 16:56:53 CST 2024","Thu Jul 18 16:56:59 CST 2024","5599","","test_automation_case","TestCases","","","test_get_warranty_info_with_various_number_length[111111]","
+
+        Test case name: Warranty_0005
+        Description: Get warranty info with number length = 1/4/5/6
+
+        expected warranty result output format:
+
+        Description:          CLICKSHARE CX-50 SET NA
+        Part number:          R9861522NA
+        Installation date:    28 September 2020
+        Warranty end date:    27 September 2021
+
+        "
+"passed","Thu Jul 18 16:56:30 CST 2024","Thu Jul 18 16:56:53 CST 2024","22904","","test_automation_case","TestCases","","","test_get_warranty_info_with_various_number_length[11111]","
+
+        Test case name: Warranty_0005
+        Description: Get warranty info with number length = 1/4/5/6
+
+        expected warranty result output format:
+
+        Description:          CLICKSHARE CX-50 SET NA
+        Part number:          R9861522NA
+        Installation date:    28 September 2020
+        Warranty end date:    27 September 2021
+
+        "
+"passed","Thu Jul 18 17:19:52 CST 2024","Thu Jul 18 17:20:20 CST 2024","27430","","test_automation_case","TestCases","","","Test case: Get warranty result with special characters","
+        Test case name: Warrenty_0003
+        Description: Get warranty info with Special characters(!@#$%^&*(_)+_.,/?~)
+
+        "
+"passed","Thu Jul 18 17:01:09 CST 2024","Thu Jul 18 17:01:14 CST 2024","5006","","test_automation_case","TestCases","","","test_check_web_page_reload_status","
+        Test case name: Warrenty_0007
+        Description: Check Web page reload status, the text field and info are empty after refreshing the web page
+
+        "
+"passed","Thu Jul 18 16:56:07 CST 2024","Thu Jul 18 16:56:30 CST 2024","22984","","test_automation_case","TestCases","","","test_get_warranty_info_with_various_number_length[1111]","
+
+        Test case name: Warranty_0005
+        Description: Get warranty info with number length = 1/4/5/6
+
+        expected warranty result output format:
+
+        Description:          CLICKSHARE CX-50 SET NA
+        Part number:          R9861522NA
+        Installation date:    28 September 2020
+        Warranty end date:    27 September 2021
+
+        "
