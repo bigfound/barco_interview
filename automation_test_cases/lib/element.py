@@ -50,6 +50,16 @@ class BasePageElement(object):
         text_element = self.driver.find_element(element[0], element[1])
         return text_element.get_attribute('value')
 
+
+class WarrantyPageElement(BasePageElement):
+    """
+    Page elements related operation
+
+    """
+
+    def __init__(self, driver):
+        super().__init__(driver)
+
     def get_warranty_info_element(self, element):
         """
         the format for warranty info element:

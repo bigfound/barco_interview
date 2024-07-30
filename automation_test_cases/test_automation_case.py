@@ -113,6 +113,7 @@ class TestCases:
                 'The output format of warranty info is different from the expected items'
         except TimeoutException:
             logger.info('There is no any shows up after input invalid serial number')
+            logger.info('Test result: PASSED')
 
     @allure.title("Test case: Check Web page reload status")
     @allure.severity(allure.severity_level.NORMAL)
@@ -141,6 +142,7 @@ class TestCases:
         sn_field_value = warranty_page.get_serial_number_field_value()
         logger.info('serial number field value: {}'.format(sn_field_value))
         assert sn_field_value == "", 'The serial number field value should be empty after refreshing the web page'
+        logger.info('Test result: PASSED')
 
 
 

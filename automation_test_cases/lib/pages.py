@@ -1,5 +1,6 @@
 from lib.locators import MainPageLocators
-from lib.element import BasePageElement
+from lib.element import WarrantyPageElement
+# from lib.element import BasePageElement
 import logging
 
 
@@ -26,7 +27,7 @@ class WarrantyPage(BasePage):
     """
     def __init__(self, driver):
         super().__init__(driver)
-        self.h = BasePageElement(self.driver)
+        self.h = WarrantyPageElement(self.driver)
 
     def open_page(self, url):
         self.open_web_page(url)
@@ -53,7 +54,7 @@ class WarrantyPage(BasePage):
 
     def warranty_result_screenshot(self, saved_file_path):
         warranty_info_element = self.h.get_warranty_info_element(MainPageLocators.warranty)
-        warranty_info_element.screenshot(saved_file_path)
+        return warranty_info_element.screenshot(saved_file_path)
 
     def wait_util_find_all_element(self, element):
         return self.h.visibility_wait_until_find_all_elements(element)

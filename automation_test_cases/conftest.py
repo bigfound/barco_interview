@@ -5,4 +5,5 @@ def pytest_generate_tests(metafunc):
         sn = ['1', '1111', '11111', '111111']
         metafunc.parametrize("various_number_length",
                              sn,
-                             ids=['1', '1111', '11111', '111111'])
+                             ids=['1', '1111', '11111', '111111']
+                             )
